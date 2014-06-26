@@ -1,6 +1,6 @@
 {
   "name": "gnarl",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Composite processes",
   "main": "lib/gnarl.js",
   "scripts": {

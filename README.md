@@ -1,4 +1,3 @@
-gnarl
-=====
+# gnarl
 
 Composite processes
