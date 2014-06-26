@@ -11,4 +11,4 @@ program
   .parse(process.argv)
 
 
-program.args.map(gnarl.parse).forEach(gnarl.spawn)
+program.args.forEach(gnarl.run)
