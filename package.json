@@ -2,7 +2,7 @@
   "name": "gnarl",
   "version": "0.0.0",
   "description": "Composite processes",
-  "main": "index.js",
+  "main": "lib/gnarl.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
