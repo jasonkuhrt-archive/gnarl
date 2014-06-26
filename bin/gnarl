@@ -6,7 +6,7 @@ var gnarl = require('../lib/gnarl')
 
 
 program
-  .version(require('./package').version)
+  .version(require('../package').version)
   .option('-c, --cmd', 'Add a command')
   .parse(process.argv)
 
