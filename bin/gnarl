@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+
+var program = require('commander')
+var gnarl = require('../lib/gnarl')
+
+
+
+program
+  .version(require('./package').version)
+  .option('-c, --cmd', 'Add a command')
+  .parse(process.argv)
+
+
+program.args.map(gnarl.parse).forEach(gnarl.spawn)
